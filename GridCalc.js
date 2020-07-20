@@ -69,7 +69,7 @@ class GridCalc {
             this.nextGeneration(instance);
         }
 
-        const result = document.getElementById('result')
+        const result = document.getElementById('result');
         result.innerHTML = `The cell [${instance.column}, ${instance.row}] was ${instance.cellIsGreenCount} times green in ${instance.turns} generations`;
     }
 }
